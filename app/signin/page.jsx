@@ -1,5 +1,5 @@
-import Image from "next/image"
-import LoginForm from "../appLoginForm.tsx";
+"use client";
+import LoginForm from "../components/LoginForm";
 
 
 const page = () => {
