@@ -14,7 +14,7 @@ const Card = () => {
         <span className='font-bold text-lg absolute top-3 left-20'>Hot Deals</span>
         <span className='font-bold text-red-600 text-lg absolute top-3 right-15'>See all</span>
     </div>
-        <div className='bg-[#eef7aa] w-120 h-80 absolute left-109'>
+        <div className='bg-[#eef7aa] w-120 h-80 absolute left-8'>
         <div className='hover:scale-125 bg-[#eef7aa] w-55 h-80 absolute top-0 left-0 rounded-2xl'> 
           <Image src={Weed} className='w-70 h-50 rounded-2xl' alt="" />
           <span className='text-red-600 font-extrabold absolute left-2'>N10,000</span><br />
@@ -36,7 +36,7 @@ const Card = () => {
           <span className='text-sm text-[#3c7962] absolute right-0 top-73 font-bold '>BlueCoat</span>
         </div>
         </div>
-        <div className='w-120 h-80 absolute left-109 top-225'>
+        <div className='w-120 h-80 absolute left-8 top-225'>
         <div className='hover:scale-125 h-80 w-55 absolute top-0 left-0 rounded-2xl'> 
           <Image src={Loud} className='w-70 h-50 rounded-2xl' alt="" />
           <span className='text-red-600 font-extrabold absolute left-2'>N10,000</span><br />
