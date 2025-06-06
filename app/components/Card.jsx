@@ -9,53 +9,75 @@ import bag from '../../public/image/bag_1.jpg'
 
 const Card = () => {
   return (
-    <div>
-    <div className='  bg-[#eef7aa] p-4 w-[30rem] m-auto h-15 mt-3 flex relative items-center justify-between'>
+    <div className='bg-[#eef7aa] w-[30rem] m-auto h-100 mt-3'>
+    <div className='  bg-[#eef7aa] p-4 w-[30rem] m-auto h-15 mt-3 flex relative'>
         <span className='font-bold text-lg absolute top-3 left-20'>Hot Deals</span>
         <span className='font-bold text-red-600 text-lg absolute top-3 right-15'>See all</span>
     </div>
-        <div className='bg-[#eef7aa] w-120 h-80 absolute left-1'>
-        <div className='hover:scale-125 bg-[#eef7aa] w-55 h-80 absolute top-0 left-0 rounded-2xl'> 
+        <div className='bg-[#eef7aa] w-120 h-80 flex justify-center mt-3 items-center'>
+        <div className='hover:scale-125 bg-[#eef7aa] w-55 h-83 rounded-2xl hover:border-4 hover:border-amber-950 hover:w-57'> 
           <Image src={Weed} className='w-70 h-50 rounded-2xl' alt="" />
-          <span className='text-red-600 font-extrabold absolute left-2'>N10,000</span><br />
-          <span className='font-extrabold text-[#3c7962] absolute left-2'>Benson & Hedges</span><br />
-          <Image src={arrow} className= "w-5 h-5 rounded-full bg-[#b1c907] absolute top-51 right-2"  alt="" />
-          <Image src={Love} className="w-5 h-5 rounded-full bg-[#b1c907] absolute top-51 right-8" alt="" /> 
-          <span className='text-sm text-[#3c7962] font-semibold absolute left-2'>By Rliabod</span><br />
-          <span className='text-sm text-[#3c7962] font-semibold absolute left-2'>Special Mushin strain <br /> that will choice you</span>
-          <span className='text-sm text-[#3c7962] absolute right-0 top-73 font-bold '>BlueCoat</span>
+          <div className='flex'>
+          <span className='text-red-600 font-extrabold pl-1'>N10,000</span><br />
+          <div>
+          <Image src={Love} className="w-5 h-5 rounded-full bg-[#b1c907] ml-[6.2rem]" alt="" /> 
+          </div>
+          <Image src={arrow} className= "w-5 h-5 rounded-full bg-[#b1c907] ml-1"  alt="" />
+          </div>
+          <span className='font-extrabold text-[#3c7962] pl-1'>Benson & Hedges</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'>By Rliabod</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'>Special Mushin strain</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'> that will choice you</span>
+          <span className='text-sm text-[#3c7962] font-bold pl-7'>BlueCoat</span>
         </div>
-        <div className='hover:scale-125 bg-[#eef7aa] h-80 w-55 absolute top-0 left-60 rounded-2xl'> 
+        <div className='hover:scale-125 bg-[#eef7aa] w-55 h-83 rounded-2xl ml-2 hover:border-4 hover:border-amber-950 hover:w-57'> 
           <Image src={bag} className='w-70 h-50 rounded-2xl' alt="" />
-          <span className='text-red-600 font-extrabold absolute left-2'>N10,000</span><br />
-          <span className='font-extrabold text-[#3c7962] absolute left-2'>Benson & Hedges</span><br />
-          <Image src={arrow} className= "w-5 h-5 rounded-full bg-[#b1c907] absolute top-51 right-2"  alt="" />
-          <Image src={Love} className="w-5 h-5 rounded-full bg-[#b1c907] absolute top-51 right-8" alt="" /> 
-          <span className='text-sm text-[#3c7962] font-semibold absolute left-2'>By Rliabod</span><br />
-          <span className='text-sm text-[#3c7962] font-semibold absolute left-2'>Special Mushin strain <br /> that will choice you</span>
-          <span className='text-sm text-[#3c7962] absolute right-0 top-73 font-bold '>BlueCoat</span>
+          <div className='flex'>
+          <span className='text-red-600 font-extrabold pl-1'>N10,000</span><br />
+          <div>
+          <Image src={Love} className="w-5 h-5 rounded-full bg-[#b1c907] ml-[6.2rem]" alt="" /> 
+          </div>
+          <Image src={arrow} className= "w-5 h-5 rounded-full bg-[#b1c907] ml-1"  alt="" />
+          </div>
+          <span className='font-extrabold text-[#3c7962] pl-1'>Benson & Hedges</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'>By Rliabod</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'>Special Mushin strain</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'> that will choice you</span>
+          <span className='text-sm text-[#3c7962] font-bold pl-7'>BlueCoat</span>
         </div>
+        
         </div>
-        <div className='w-120 h-80 absolute left-1 top-225'>
-        <div className='hover:scale-125 h-80 w-55 absolute top-0 left-0 rounded-2xl'> 
+        <div className='w-120 h-80 flex m-auto justify-center mt-6 items-center'>
+         <div className='hover:scale-125 bg-white w-55 h-83 rounded-2xl hover:border-4 hover:border-amber-950 hover:w-57'> 
           <Image src={Loud} className='w-70 h-50 rounded-2xl' alt="" />
-          <span className='text-red-600 font-extrabold absolute left-2'>N10,000</span><br />
-          <span className='font-extrabold text-[#3c7962] absolute left-2'>Benson & Hedges</span><br />
-          <Image src={arrow} className= "w-5 h-5 rounded-full bg-[#b1c907] absolute top-51 right-2"  alt="" />
-          <Image src={Love} className="w-5 h-5 rounded-full bg-[#b1c907] absolute top-51 right-8" alt="" /> 
-          <span className='text-sm text-[#3c7962] font-semibold absolute left-2'>By Rliabod</span><br />
-          <span className='text-sm text-[#3c7962] font-semibold absolute left-2'>Special Mushin strain <br /> that will choice you</span>
-          <span className='text-sm text-[#3c7962] absolute right-0 top-73 font-bold '>BlueCoat</span>
+          <div className='flex'>
+          <span className='text-red-600 font-extrabold pl-1'>N10,000</span><br />
+          <div>
+          <Image src={Love} className="w-5 h-5 rounded-full bg-[#b1c907] ml-[6.2rem]" alt="" /> 
+          </div>
+          <Image src={arrow} className= "w-5 h-5 rounded-full bg-[#b1c907] ml-1"  alt="" />
+          </div>
+          <span className='font-extrabold text-[#3c7962] pl-1'>Benson & Hedges</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'>By Rliabod</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'>Special Mushin strain</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'> that will choice you</span>
+          <span className='text-sm text-[#3c7962] font-bold pl-7'>BlueCoat</span>
         </div>
-        <div className='hover:scale-125 h-80 w-55 absolute top-0 left-60 rounded-2xl'> 
+
+          <div className='hover:scale-125 bg-white w-55 h-83 ml-2 rounded-2xl hover:border-4 hover:border-amber-950 hover:w-57'> 
           <Image src={prond} className='w-70 h-50 rounded-2xl' alt="" />
-          <span className='text-red-600 font-extrabold absolute left-2'>N10,000</span><br />
-          <span className='font-extrabold text-[#3c7962] absolute left-2'>Benson & Hedges</span><br />
-          <Image src={arrow} className= "w-5 h-5 rounded-full bg-[#b1c907] absolute top-51 right-2"  alt="" />
-          <Image src={Love} className="w-5 h-5 rounded-full bg-[#b1c907] absolute top-51 right-8" alt="" /> 
-          <span className='text-sm text-[#3c7962] font-semibold absolute left-2'>By Rliabod</span><br />
-          <span className='text-sm text-[#3c7962] font-semibold absolute left-2'>Special Mushin strain <br /> that will choice you</span>
-          <span className='text-sm text-[#3c7962] absolute right-0 top-73 font-bold '>BlueCoat</span>
+          <div className='flex'>
+          <span className='text-red-600 font-extrabold pl-1'>N10,000</span><br />
+          <div>
+          <Image src={Love} className="w-5 h-5 rounded-full bg-[#b1c907] ml-[6.2rem]" alt="" /> 
+          </div>
+          <Image src={arrow} className= "w-5 h-5 rounded-full bg-[#b1c907] ml-1"  alt="" />
+          </div>
+          <span className='font-extrabold text-[#3c7962] pl-1'>Benson & Hedges</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'>By Rliabod</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'>Special Mushin strain</span><br />
+          <span className='text-sm text-[#3c7962] font-semibold pl-1'> that will choice you</span>
+          <span className='text-sm text-[#3c7962] font-bold pl-7'>BlueCoat</span>
         </div>
         </div>
     </div>
